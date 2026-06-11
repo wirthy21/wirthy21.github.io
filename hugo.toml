@@ -1,0 +1,50 @@
+baseURL = "https://wirthy21.github.io/"
+locale = "en-us"
+title = "Jannik Wirtheim"
+disableKinds = ["RSS"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+[author]
+  name = "Jannik Wirtheim"
+  email = "jannik.wirtheim@gmx.de"
+
+[params]
+  sitename = "Jannik Wirtheim"
+  defaultColor = "dark"
+  description = "Personal website of Jannik Wirtheim"
+  mainSections = ["posts"]
+
+[params.author]
+  avatar = "avatar.jpg"
+  intro = "Jannik Wirtheim"
+  name = "Jannik Wirtheim"
+  description = "Data Science, Machine Learning, Agentic AI, and Multi-Agent Systems."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/wirthy21"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:jannik.wirtheim@gmx.de"
+
+[[menu.main]]
+  pageRef = "/"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  pageRef = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[menu.main]]
+  pageRef = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 30

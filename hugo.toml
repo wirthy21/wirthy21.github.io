@@ -18,10 +18,10 @@ disableKinds = ["RSS"]
   mainSections = ["posts"]
 
 [params.author]
-  avatar = "avatar.jpg"
+  avatar = "Bewerbungsfoto.jpg"
   intro = "Jannik Wirtheim"
   name = "Jannik Wirtheim"
-  description = "Data Science, Machine Learning, Agentic AI, and Multi-Agent Systems."
+  description = "Data Science & Machine Learning"
 
 [[params.socialIcons]]
   name = "github"
@@ -31,20 +31,46 @@ disableKinds = ["RSS"]
   name = "email"
   url = "mailto:jannik.wirtheim@gmx.de"
 
+[[params.socialIcons]]
+  name = "kaggle"
+  url = "https://www.kaggle.com/wirthy"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/jannik-wirtheim-880490231/"
+
 [[menu.main]]
-  pageRef = "/"
-  name = "Home"
-  url = "/"
+  pageRef = "video"
+  name = "Video"
+  url = "/video/"
   weight = 10
 
 [[menu.main]]
-  pageRef = "about"
-  name = "About"
-  url = "/about/"
+  pageRef = "experience"
+  name = "Experience"
+  url = "/experience/"
   weight = 20
 
 [[menu.main]]
-  pageRef = "posts"
-  name = "Posts"
-  url = "/posts/"
+  pageRef = "projects"
+  name = "Projects"
+  url = "/projects/"
   weight = 30
+
+[[menu.main]]
+  pageRef = "publications"
+  name = "Publications"
+  url = "/publications/"
+  weight = 40
+
+[[menu.main]]
+  pageRef = "skills"
+  name = "Skills"
+  url = "/skills/"
+  weight = 50
+
+[[menu.main]]
+  pageRef = "cv"
+  name = "CV"
+  url = "/cv/"
+  weight = 60

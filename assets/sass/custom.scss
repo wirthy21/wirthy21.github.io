@@ -1,0 +1,55 @@
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: currentColor;
+  opacity: 0.25;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -0.02rem;
+  top: 0.35rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.timeline-date {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  margin-bottom: 0.35rem;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.timeline-content h4 {
+  margin: 0.25rem 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.timeline-content p {
+  margin-top: 0.5rem;
+}

@@ -15,7 +15,6 @@ disableKinds = ["RSS"]
   sitename = "Jannik Wirtheim"
   defaultColor = "dark"
   description = "Personal website of Jannik Wirtheim"
-  mainSections = ["posts"]
 
 [params.author]
   avatar = "Bewerbungsfoto.jpg"
@@ -47,7 +46,7 @@ disableKinds = ["RSS"]
 
 [[menu.main]]
   pageRef = "experience"
-  name = "Experience"
+  name = "Experiences"
   url = "/experience/"
   weight = 20
 
@@ -74,3 +73,8 @@ disableKinds = ["RSS"]
   name = "CV"
   url = "/cv/"
   weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

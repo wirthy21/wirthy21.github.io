@@ -1,0 +1,268 @@
+{{ define "main" }}
+
+<style>
+.home-profile {
+  text-align: center;
+  margin-top: 4.5rem;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
+}
+
+.home-avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+
+.home-profile h1 {
+  margin: 0 0 0.6rem 0;
+  font-size: 2rem;
+}
+
+.home-profile p {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.05rem;
+  opacity: 0.75;
+  line-height: 1.65;
+}
+
+.home-interests {
+  margin: 3rem auto 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.mindmap-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mindmap-svg {
+  display: block;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.mindmap-line {
+  fill: none;
+  stroke: #8b5cf6;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  opacity: 0.9;
+}
+
+.mindmap-line.soft {
+  stroke-width: 2;
+  opacity: 0.75;
+}
+
+.mindmap-node rect {
+  fill: rgba(139, 92, 246, 0.14);
+  stroke: rgba(139, 92, 246, 0.42);
+  stroke-width: 1;
+  rx: 14;
+  transition:
+    fill 0.2s ease,
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.mindmap-node text {
+  fill: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.mindmap-node.center rect {
+  fill: rgba(139, 92, 246, 0.18);
+  stroke: rgba(139, 92, 246, 0.55);
+}
+
+.mindmap-node.center text {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.mindmap-node.main text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mindmap-node:hover rect {
+  fill: rgba(139, 92, 246, 0.24);
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.28));
+}
+
+@media (max-width: 700px) {
+  .home-profile {
+    margin-top: 5rem;
+  }
+
+  .mindmap-svg {
+    max-width: 100%;
+  }
+
+  .mindmap-node text {
+    font-size: 12px;
+  }
+
+  .mindmap-node.center text {
+    font-size: 14px;
+  }
+
+  .mindmap-node.main text {
+    font-size: 13px;
+  }
+}
+
+</style>
+
+<div class="home-profile">
+  <img class="home-avatar" src="/Bewerbungsfoto.jpg" alt="Jannik Wirtheim">
+
+  <h1>Hey, I'm Jannik! 👋</h1>
+
+<p>
+  I'm a Data Scientist & Business Psychologist with a strong interest in Machine Learning.
+</p>
+
+<p>
+  Here on my website, you can find information about my work and projects. Feel free to explore!
+</p>
+
+<p>
+  If you have any questions, don't hesitate to reach out on my different social media platforms.
+</p>
+
+</div>
+
+<div class="home-interests">
+
+  <div class="mindmap-wrapper">
+    <svg class="mindmap-svg" viewBox="0 0 1900 640" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Research interests mind map">
+
+      <!-- Main connections -->
+      <path class="mindmap-line" d="M 845 200 C 800 200, 825 108, 780 108" />
+      <path class="mindmap-line" d="M 1055 200 C 1100 200, 1080 108, 1120 108" />
+      <path class="mindmap-line" d="M 950 230 C 950 285, 950 310, 950 350" />
+
+      <!-- RL sub connections -->
+      <path class="mindmap-line soft" d="M 550 108 C 500 108, 500 45, 450 45" />
+      <path class="mindmap-line soft" d="M 550 108 C 500 108, 500 105, 450 105" />
+      <path class="mindmap-line soft" d="M 550 108 C 500 108, 500 165, 450 165" />
+      <path class="mindmap-line soft" d="M 550 108 C 500 108, 500 225, 450 225" />
+      <path class="mindmap-line soft" d="M 550 108 C 500 108, 500 285, 450 285" />
+
+      <!-- CV sub connections -->
+      <path class="mindmap-line soft" d="M 1330 108 C 1390 108, 1390 45, 1450 45" />
+      <path class="mindmap-line soft" d="M 1330 108 C 1390 108, 1390 105, 1450 105" />
+      <path class="mindmap-line soft" d="M 1330 108 C 1390 108, 1390 165, 1450 165" />
+      <path class="mindmap-line soft" d="M 1330 108 C 1390 108, 1390 225, 1450 225" />
+
+      <!-- Agentic AI sub connections -->
+      <path class="mindmap-line soft" d="M 950 406 C 950 465, 560 465, 560 530" />
+      <path class="mindmap-line soft" d="M 950 406 C 950 470, 950 470, 950 530" />
+      <path class="mindmap-line soft" d="M 950 406 C 950 465, 1340 465, 1340 530" />
+
+      <!-- Center node -->
+      <g class="mindmap-node center">
+        <rect x="845" y="170" width="210" height="60" />
+        <text x="950" y="200">Research & Interests</text>
+      </g>
+
+      <!-- Main branch nodes -->
+      <g class="mindmap-node main">
+        <rect x="550" y="80" width="230" height="56" />
+        <text x="665" y="108">Reinforcement Learning</text>
+      </g>
+
+      <g class="mindmap-node main">
+        <rect x="1120" y="80" width="210" height="56" />
+        <text x="1225" y="108">Computer Vision</text>
+      </g>
+
+      <g class="mindmap-node main">
+        <rect x="840" y="350" width="220" height="56" />
+        <text x="950" y="378">Agentic AI</text>
+      </g>
+
+      <!-- RL subnodes -->
+      <g class="mindmap-node">
+        <rect x="250" y="20" width="200" height="50" />
+        <text x="350" y="45">GAIL</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="250" y="80" width="200" height="50" />
+        <text x="350" y="105">Multi Agents</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="250" y="140" width="200" height="50" />
+        <text x="350" y="165">Trajectory Prediction</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="250" y="200" width="200" height="50" />
+        <text x="350" y="225">Stochastic Policies</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="250" y="260" width="200" height="50" />
+        <text x="350" y="285">Imitation Learning</text>
+      </g>
+
+      <!-- CV subnodes -->
+      <g class="mindmap-node">
+        <rect x="1450" y="20" width="170" height="50" />
+        <text x="1535" y="45">GAN</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="1450" y="80" width="170" height="50" />
+        <text x="1535" y="105">YOLO</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="1450" y="140" width="170" height="50" />
+        <text x="1535" y="165">DeepSORT</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="1450" y="200" width="170" height="50" />
+        <text x="1535" y="225">Autoencoder</text>
+      </g>
+
+      <!-- Agentic AI subnodes -->
+      <g class="mindmap-node">
+        <rect x="450" y="530" width="220" height="50" />
+        <text x="560" y="555">Agent Orchestration</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="840" y="530" width="220" height="50" />
+        <text x="950" y="555">Agentic Coding Team</text>
+      </g>
+
+      <g class="mindmap-node">
+        <rect x="1260" y="530" width="160" height="50" />
+        <text x="1340" y="555">OpenClaw</text>
+      </g>
+
+    </svg>
+  </div>
+</div>
+{{ end }}

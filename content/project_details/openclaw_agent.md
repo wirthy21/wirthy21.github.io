@@ -41,6 +41,12 @@ draft = false
   border-radius: 12px;
 }
 
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
+
 @media (max-width: 900px) {
   .video-grid {
     grid-template-columns: 1fr;
@@ -58,11 +64,15 @@ draft = false
 
 ## Overview
 
-By now, you have already learned quite a bit about Luna. Luna has become a valuable part of my everyday life, as she already supports me with simple assistance tasks. During the setup, security was especially important to me. I wanted to make sure that my agent is protected from external attacks, while my system is also protected from Luna herself.
+<p class="abstract-text" lang="en">
+By now, you have already learned quite a bit about Luna. Luna has become a valuable part of my everyday life, as she already supports me with simple assistance tasks. During the setup, security was especially important to me. I wanted to make sure that my agent is protected from external attacks, while my system is also protected from Luna herself.</p>
 
-For privacy reasons, I configured Luna according to the principle of least privilege. This means that Luna only has limited access to my personal data and restricted permissions — only the ones I explicitly grant her.
+<p class="abstract-text" lang="en">
+For privacy reasons, I configured Luna according to the principle of least privilege. This means that Luna only has limited access to my personal data and restricted permissions — only the ones I explicitly grant her.</p>
 
-Luna is a tinkering project. Through the continuous development of new tools, I keep expanding Luna’s horizon, for example with Paperclip, which helps me gain a better overview of the orchestration of the agents.
+<p class="abstract-text" lang="en">
+Luna is a tinkering project. Through the continuous development of new tools, I keep expanding Luna’s horizon, for example with Paperclip, which helps me gain a better overview of the orchestration of the agents.</p>
+
 
 ## Current Tasks
 

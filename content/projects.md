@@ -119,7 +119,7 @@ draft = false
 <a class="project-card" href="/project_details/openclaw_agent/">
   <div class="project-text">
     <h3>OpenClaw Agent</h3>
-    <h4>Personal AI Assistant  - ongoing</h4>
+    <h4>Personal Project  - ongoing</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -140,7 +140,7 @@ draft = false
 <a class="project-card" href="/project_details/pod_automation/">
   <div class="project-text">
     <h3>Print-On-Demand Automation<br>Agentic AI Workflow </h3>
-    <h4>Personal Agentic AI Project - ongoing</h4>
+    <h4>Personal Project - ongoing</h4>
     <p>
     </p>
     <div class="project-tags">

@@ -41,6 +41,12 @@ draft = false
   border-radius: 12px;
 }
 
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
+
 @media (max-width: 900px) {
   .video-grid {
     grid-template-columns: 1fr;
@@ -56,15 +62,19 @@ draft = false
 
 ## Overview
 
-One of my personal highlights during my master’s program was the course “Bio-Inspired Robotics”. The final examination was to build a robot that could autonomously follow a line using only video input.
+<p class="abstract-text" lang="en">
+One of my personal highlights during my master’s program was the course “Bio-Inspired Robotics”. The final examination was to build a robot that could autonomously follow a line using only video input.</p>
+
 
 <img class="project-small-image" src="/images/projects/robot.jpeg" alt="Line-following robot">
 
-The fastest team received the best grade, while additional implemented features could further improve the final score. With a significant lead over the second group, our robot achieved the best performance. Since the project was a lot of fun, we also implemented all optional side tasks, including rubber duck detection, QR code reading, and traffic light detection while driving.
+<p class="abstract-text" lang="en">
+The fastest team received the best grade, while additional implemented features could further improve the final score. With a significant lead over the second group, our robot achieved the best performance. Since the project was a lot of fun, we also implemented all optional side tasks, including rubber duck detection, QR code reading, and traffic light detection while driving.</p>
 
 <img class="project-medium-image" src="/images/projects/exam_course_robot.jpeg" alt="Examination course">
 
-The robot used a PID controller combined with real-time camera input to detect and follow a black line by identifying its centroid in the video feed.
+<p class="abstract-text" lang="en">
+The robot used a PID controller combined with real-time camera input to detect and follow a black line by identifying its centroid in the video feed.</p>
 
 
 <div class="video-grid">

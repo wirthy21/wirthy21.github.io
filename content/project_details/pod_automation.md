@@ -1,5 +1,5 @@
 +++
-title = "Print-On-Demand Agentic Workflow 🤖"
+title = "Print-On-Demand Agentic Upload Automation 🤖"
 draft = false
 +++
 
@@ -34,11 +34,17 @@ draft = false
 }
 
 .project-medium-image {
-  width: 60%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 1200px;
   display: block;
   margin: 2rem auto;
   border-radius: 12px;
+}
+
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
 }
 
 @media (max-width: 900px) {
@@ -54,6 +60,18 @@ draft = false
 }
 </style>
 
-## Overview
+<p class="abstract-text" lang="en"> This page is in progress...</p>
 
-Currently in progress...
+## The Business Model
+
+<p class="abstract-text" lang="en"> The business model works as followed.</p>
+
+<img class="project-medium-image" src="/images/projects/shirt_example.png" alt="Shirt Example">
+
+<br>
+
+## Automation Workflow
+
+<p class="abstract-text" lang="en"> For this a POD Pipeline was created...</p>
+
+<img class="project-medium-image" src="/images/projects/pod_pipeline.png" alt="Shirt Example">

@@ -69,10 +69,16 @@ disableKinds = ["RSS"]
   weight = 50
 
 [[menu.main]]
+  pageRef = "personal"
+  name = "Personal"
+  url = "/personal/"
+  weight = 60
+
+[[menu.main]]
   pageRef = "cv"
   name = "CV"
   url = "/cv/"
-  weight = 60
+  weight = 70
 
 [markup]
   [markup.goldmark]

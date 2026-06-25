@@ -4,7 +4,7 @@ draft = false
 +++
 
 <p class="projects-intro">
-  Here you can find a selection of my academic, professional, and personal projects in Data Science, Machine Learning, Computer Vision, and Agentic AI. Click on a project to learn more about the motivation, methods, and results.
+  On this page, I share a mix of academic and personal projects. They show what I have worked on during my studies, research, and also in my own time. Feel free to take a look at my projects and click on them to learn more.
 </p>
 
 <style>
@@ -81,7 +81,7 @@ draft = false
 
 .project-image {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 4;
   border-radius: 12px;
   object-fit: cover;
   background: rgba(255, 255, 255, 0.08);
@@ -115,46 +115,12 @@ draft = false
 
 <div class="projects-grid">
 
-<a class="project-card" href="/projects/predator-prey-gail/">
-  <div class="project-text">
-    <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
-    <h4>Master’s Thesis · Max Planck Institute of Animal Behavior</h4>
-    <p>
-    </p>
-    <div class="project-tags">
-      <span class="project-tag">Computer Vision</span>
-      <span class="project-tag">Imitation Learning</span>
-      <span class="project-tag">Multi-Agent Systems</span>
-      <span class="project-tag">GAIL</span>
-    </div>
-  </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
-</a>
 
-<a class="project-card" href="/projects/line-following-robot/">
+<a class="project-card" href="/projects/openclaw_agent/">
   <div class="project-text">
-    <h3>Line-Following Robot</h3>
-    <h4>Examination · Bio-inspired Robotics</h4>
-    <p>
-    </p>
-    <div class="project-tags">
-      <span class="project-tag">PID Controller</span>
-      <span class="project-tag">Raspberry Pi</span>
-      <span class="project-tag">Linux</span>
-      <span class="project-tag">Self-Driving</span>
-    </div>
-  </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
-</a>
-
-<a class="project-card" href="/projects/openclaw-agent-server/">
-  <div class="project-text">
-    <h3>OpenClaw Agent Server</h3>
-    <h4>Personal Agentic AI Infrastructure</h4>
+    <h3>OpenClaw Agent</h3>
+    <h4>Personal AI Assistant</h4>
+    <h4>Ongoing project</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -162,66 +128,146 @@ draft = false
       <span class="project-tag">OpenClaw</span>
       <span class="project-tag">Linux</span>
       <span class="project-tag">Automation</span>
+      <span class="project-tag">Agent Orchestration</span>
     </div>
   </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
+  <img
+    class="project-image"
+    src="/images/projects/openclaw_img.png"
+    alt="Predator-prey trajectory analysis project"
+  />
 </a>
 
-<a class="project-card" href="/projects/pod-automation/">
+<a class="project-card" href="/projects/pod_automation/">
   <div class="project-text">
-    <h3>Automation of Print-On-Demand Business Model using Agentic AI Workflow  </h3>
+    <h3>Agentic AI Workflow - Print-On-Demand Automation </h3>
     <h4>Personal Agentic AI Project</h4>
+    <h4>Ongoing project</h4>
     <p>
     </p>
     <div class="project-tags">
-      <span class="project-tag">Statistics</span>
-      <span class="project-tag">Data Quality</span>
-      <span class="project-tag">Predictive Maintenance</span>
-      <span class="project-tag">Research</span>
+      <span class="project-tag">AI Workflow</span>
+      <span class="project-tag">Agentic Pipeline</span>
+      <span class="project-tag">Codex CLI</span>
+      <span class="project-tag">Vision Models</span>
+      <span class="project-tag">Text Models</span>
+      <span class="project-tag">Local Hosting</span>
     </div>
   </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
+  <img
+    class="project-image"
+    src="/images/projects/merch.png"
+    alt="Predator-prey trajectory analysis project"
+  />
 </a>
 
+<a class="project-card" href="/projects/master_thesis/">
+  <div class="project-text">
+    <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
+    <h4>Master’s Thesis · MPI of Animal Behavior</h4>
+    <h4>03/2026</h4>
+    <p>
+    </p>
+    <div class="project-tags">
+    <span class="project-tag">Computer Vision</span>
+    <span class="project-tag">Imitation Learning</span>
+    <span class="project-tag">GAIL</span>
+    <span class="project-tag">Self-Supervised Learning</span>
+    <span class="project-tag">Explainable AI</span>
+    <span class="project-tag">Autoencoder</span>
+    </div>
+  </div>
+  <img
+    class="project-image"
+    src="/images/projects/yolo.png"
+    alt="Predator-prey trajectory analysis project"
+  />
+</a>
 
-<a class="project-card" href="/projects/wikipedia-graph/">
+<a class="project-card" href="/projects/line_following_robot/">
+  <div class="project-text">
+    <h3>Line-Following Robot</h3>
+    <h4>Examination · Bio-inspired Robotics</h4>
+    <h4>03/2025</h4>
+    <p>
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">PID Controller</span>
+      <span class="project-tag">Raspberry Pi</span>
+      <span class="project-tag">Computer Vision</span>
+      <span class="project-tag">Linux</span>
+      <span class="project-tag">Self-Driving</span>
+    </div>
+  </div>
+  <img
+    class="project-image"
+    src="/images/projects/robot.jpeg"
+    alt="Predator-prey trajectory analysis project"
+  />
+</a>
+
+<a class="project-card" href="/projects/wikipedia_graph/">
   <div class="project-text">
     <h3>Shortest Path Analysis in the Wikipedia Graph: Machine Learning Approaches to Wikirace </h3>
-    <h4>Student Project · Wikipedia...</h4>
+    <h4>Student Project</h4>
+    <h4>01/2025</h4>
     <p>
     </p>
     <div class="project-tags">
-      <span class="project-tag">Statistics</span>
-      <span class="project-tag">Data Quality</span>
-      <span class="project-tag">Predictive Maintenance</span>
-      <span class="project-tag">Research</span>
+      <span class="project-tag">Wikipedia</span>
+      <span class="project-tag">Graph Search</span>
+      <span class="project-tag">WikiRace</span>
+      <span class="project-tag">Networks</span>
     </div>
   </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
+  <img
+    class="project-image"
+    src="/images/projects/wiki.png"
+    alt="Predator-prey trajectory analysis project"
+  />
 </a>
 
-<a class="project-card" href="/projects/wikipedia-graph/">
+
+<a class="project-card" href="/projects/discourse_climate_change/">
   <div class="project-text">
-    <h3>Analyzing Online Discourse on Climate Change Using Word2Vec Embeddings  </h3>
-    <h4>Examination · Deep Learning for Social Sciences...</h4>
+    <h3>Analyzing Online Discourse on Climate Change Using Word2Vec Embeddings</h3>
+    <h4>Student Project</h4>
+    <h4>08/2024</h4>
     <p>
     </p>
     <div class="project-tags">
-      <span class="project-tag">Statistics</span>
-      <span class="project-tag">Data Quality</span>
-      <span class="project-tag">Predictive Maintenance</span>
-      <span class="project-tag">Research</span>
+      <span class="project-tag">Climate Change</span>
+      <span class="project-tag">Word embeddings</span>
+      <span class="project-tag">Skipgram</span>
+      <span class="project-tag">CBOW</span>
     </div>
   </div>
-  <div class="project-image-placeholder">
-    Project image coming soon
-  </div>
+  <img
+    class="project-image"
+    src="/images/projects/climate_change.png"
+    alt="Predator-prey trajectory analysis project"
+  />
 </a>
 
+
+<a class="project-card" href="/projects/em_prediction/">
+  <div class="project-text">
+    <h3>Forecasting the UEFA EURO 2024: Comparing FIFA23 and LLM Simulations</h3>
+    <h4>Student Project</h4>
+    <h4>08/2024</h4>
+    <p>
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">EM Simulation</span>
+      <span class="project-tag">Data Quality</span>
+      <span class="project-tag">LLMs</span>
+      <span class="project-tag">Quotes</span>
+    </div>
+  </div>
+  <img
+    class="project-image"
+    src="/images/projects/fifa.jpg"
+    alt="Predator-prey trajectory analysis project"
+  />
+</a>
 </div>

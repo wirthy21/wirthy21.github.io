@@ -4,7 +4,7 @@ draft = false
 +++
 
 <p class="skills-intro">
-  Here you can find an overview of my technical skills, research interests, certifications, and languages.
+  Beyond grades and degrees, the skills developed along the way are just as important. This page gives a small overview of my technical skills, certifications, and languages.
 </p>
 
 <style>

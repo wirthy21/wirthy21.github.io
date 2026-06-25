@@ -4,7 +4,7 @@ draft = false
 +++
 
 <p class="experience-intro">
-  Here you can find an overview of my academic and professional experience, ranging from research-oriented projects to applied work in Data Science, Machine Learning, and IT.
+  My experience combines an academic path at different research institutes with a more applied path in banking and IT. Take a look at the different positions to learn more about what I have done.
 </p>
 
 

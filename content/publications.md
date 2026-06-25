@@ -4,7 +4,7 @@ draft = false
 +++
 
 <p class="publications-intro">
-  Here you can find my current and upcoming academic publications, including work based on my Master’s thesis in Machine Learning, Computer Vision, and Multi-Agent Systems.
+  Here you can find an overview of my current and upcoming academic work and publications.
 </p>
 
 <style>
@@ -130,9 +130,9 @@ draft = false
   <div class="publication-text">
     <span class="publication-status">Paper in progress</span>
     <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
-    <h4>Based on my Master’s thesis · Working paper</h4>
+    <h4>Working paper for ICRA 2027, South Korea</h4>
     <p>
-      This paper is currently in preparation and builds on my Master’s thesis conducted at the Max Planck Institute of Animal Behavior. The work focuses on extracting predator-prey trajectories from video data and learning multi-agent behavior using Generative Adversarial Imitation Learning.
+      This work learns predator–prey swarm behavior from aquarium videos using a GAIL-based co-evolutionary framework. The learned policies reproduce basic group motion, but only partially capture pursuit and avoidance dynamics.
     </p>
     <div class="publication-tags">
       <span class="publication-tag">Working Paper</span>
@@ -140,11 +140,14 @@ draft = false
       <span class="publication-tag">Imitation Learning</span>
       <span class="publication-tag">Multi-Agent Systems</span>
       <span class="publication-tag">GAIL</span>
+      <span class="publication-tag">Self-Supervised Learning</span>
     </div>
   </div>
-  <div class="publication-image-placeholder">
-    Preview image coming soon
-  </div>
+  <img
+    class="project-image"
+    src="/images/projects/gail.png"
+    alt="Predator-prey trajectory analysis project"
+  />
 </a>
 
 </div>

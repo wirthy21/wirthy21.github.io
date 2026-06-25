@@ -1,6 +1,5 @@
 +++
 title = "European Championship Prediciton ⚽"
-date = 2026-06-25
 draft = false
 +++
 

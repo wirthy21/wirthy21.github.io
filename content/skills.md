@@ -97,6 +97,7 @@ draft = false
     <span class="skill-tag">Gymnasium</span>
     <span class="skill-tag">SciPy</span>
     <span class="skill-tag">Smolagents</span>
+    <span class="skill-tag">Docker</span>
   </div>
 </div>
 

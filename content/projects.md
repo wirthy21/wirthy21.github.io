@@ -116,7 +116,7 @@ draft = false
 <div class="projects-grid">
 
 
-<a class="project-card" href="/projects/openclaw_agent/">
+<a class="project-card" href="/project_details/openclaw_agent/">
   <div class="project-text">
     <h3>OpenClaw Agent</h3>
     <h4>Personal AI Assistant  - ongoing</h4>
@@ -138,7 +138,7 @@ draft = false
   />
 </a>
 
-<a class="project-card" href="/projects/pod_automation/">
+<a class="project-card" href="/project_details/pod_automation/">
   <div class="project-text">
     <h3>Agentic AI Workflow - Print-On-Demand Automation </h3>
     <h4>Personal Agentic AI Project - ongoing</h4>
@@ -160,7 +160,7 @@ draft = false
   />
 </a>
 
-<a class="project-card" href="/projects/master_thesis/">
+<a class="project-card" href="/project_details/master_thesis/">
   <div class="project-text">
     <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
     <h4>Master’s Thesis - March, 2026</h4>
@@ -182,7 +182,7 @@ draft = false
   />
 </a>
 
-<a class="project-card" href="/projects/line_following_robot/">
+<a class="project-card" href="/project_details/line_following_robot/">
   <div class="project-text">
     <h3>Line-Following Robot</h3>
     <h4>Student Project - March, 2026</h4>
@@ -203,7 +203,7 @@ draft = false
   />
 </a>
 
-<a class="project-card" href="/projects/wikipedia_graph/">
+<a class="project-card" href="/project_details/wikipedia_graph/">
   <div class="project-text">
     <h3>Shortest Path Analysis in the Wikipedia Graph: Machine Learning Approaches to Wikirace </h3>
     <h4>Student Project - January, 2025</h4>
@@ -224,7 +224,7 @@ draft = false
 </a>
 
 
-<a class="project-card" href="/projects/discourse_climate_change/">
+<a class="project-card" href="/project_details/discourse_climate_change/">
   <div class="project-text">
     <h3>Analyzing Online Discourse on Climate Change Using Word2Vec Embeddings</h3>
     <h4>Student Project - August, 2024</h4>
@@ -245,7 +245,7 @@ draft = false
 </a>
 
 
-<a class="project-card" href="/projects/em_prediction/">
+<a class="project-card" href="/project_details/em_prediction/">
   <div class="project-text">
     <h3>Forecasting the UEFA EURO 2024: Comparing FIFA23 and LLM Simulations</h3>
     <h4>Student Project - August, 2024</h4>

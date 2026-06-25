@@ -1,6 +1,5 @@
 +++
 title = "Analyzing Climate Change Disclosure 🌍"
-date = 2026-06-25
 draft = false
 +++
 

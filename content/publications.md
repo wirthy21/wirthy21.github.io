@@ -126,7 +126,7 @@ draft = false
 
 <div class="publications-grid">
 
-<a class="publication-card" href="/publications/predator-prey-gail-paper/">
+<a class="publication-card" href="/project_details/master_thesis/">
   <div class="publication-text">
     <span class="publication-status">Paper in progress</span>
     <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>

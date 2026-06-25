@@ -52,6 +52,6 @@ draft = false
 
 <div class="cv-actions">
   <a class="cv-download" href="/files/CV_Jannik_Wirtheim.pdf" download>
-    Download CV as PDF
+    Download CV
   </a>
 </div>

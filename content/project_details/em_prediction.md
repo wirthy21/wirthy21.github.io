@@ -1,40 +1,60 @@
 +++
-title = "Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning"
+title = "European Championship Prediciton ⚽"
+date = 2026-06-25
 draft = false
 +++
 
-<img class="project-hero-image" src="/images/projects/predator-prey.jpg" alt="Predator-prey trajectory analysis project">
+<style>
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.video-card p {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.project-small-image {
+  width: 45%;
+  max-width: 420px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+.project-medium-image {
+  width: 60%;
+  max-width: 600px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-small-image,
+  .project-medium-image {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+</style>
 
 ## Overview
 
-This project was conducted as my Master's thesis at the Max Planck Institute of Animal Behavior and the University of Konstanz. The goal was to explore predator-prey dynamics from video data using Computer Vision and Generative Adversarial Imitation Learning.
-
-## Motivation
-
-Predator-prey interactions are complex multi-agent systems. Instead of relying only on manually designed behavioral rules, this project investigated whether agent policies can learn basic motion patterns directly from observed trajectories.
-
-## Methods
-
-The project combined several components:
-
-- Object detection using YOLO
-- Multi-object tracking using DeepSORT
-- Trajectory preprocessing
-- Behavioral feature extraction
-- Generative Adversarial Imitation Learning
-- Multi-agent policy training
-
-## Results
-
-The final model was able to imitate basic behavioral motion patterns and was evaluated against expert trajectories using group-level behavioral metrics.
-
-## Technologies
-
-- Python
-- PyTorch
-- OpenCV
-- YOLO
-- DeepSORT
-- Reinforcement Learning
-- Imitation Learning
-- Multi-Agent Systems
+Currently in progress...

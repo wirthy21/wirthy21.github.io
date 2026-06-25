@@ -2,7 +2,6 @@
 title = "OpenClaw Agent 🦀"
 date = 2026-06-25
 draft = false
-url = "/projects/openclaw_agent/"
 +++
 
 <style>

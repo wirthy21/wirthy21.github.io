@@ -1,40 +1,96 @@
 +++
-title = "Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning"
+title = "Line-Following Robot 🏎️🥇"
+date = 2026-06-25
 draft = false
+url = "/projects/line_following_robot/"
 +++
 
-<img class="project-hero-image" src="/images/projects/predator-prey.jpg" alt="Predator-prey trajectory analysis project">
+<style>
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.video-card p {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.project-small-image {
+  width: 45%;
+  max-width: 420px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+.project-medium-image {
+  width: 60%;
+  max-width: 600px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-small-image,
+  .project-medium-image {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+</style>
 
 ## Overview
 
-This project was conducted as my Master's thesis at the Max Planck Institute of Animal Behavior and the University of Konstanz. The goal was to explore predator-prey dynamics from video data using Computer Vision and Generative Adversarial Imitation Learning.
+One of my personal highlights during my master’s program was the course “Bio-Inspired Robotics”. The final examination was to build a robot that could autonomously follow a line using only video input.
 
-## Motivation
+<img class="project-small-image" src="/images/projects/robot.jpeg" alt="Line-following robot">
 
-Predator-prey interactions are complex multi-agent systems. Instead of relying only on manually designed behavioral rules, this project investigated whether agent policies can learn basic motion patterns directly from observed trajectories.
+The fastest team received the best grade, while additional implemented features could further improve the final score. With a significant lead over the second group, our robot achieved the best performance. Since the project was a lot of fun, we also implemented all optional side tasks, including rubber duck detection, QR code reading, and traffic light detection while driving.
 
-## Methods
+<img class="project-medium-image" src="/images/projects/exam_course_robot.jpeg" alt="Examination course">
 
-The project combined several components:
+The robot used a PID controller combined with real-time camera input to detect and follow a black line by identifying its centroid in the video feed.
 
-- Object detection using YOLO
-- Multi-object tracking using DeepSORT
-- Trajectory preprocessing
-- Behavioral feature extraction
-- Generative Adversarial Imitation Learning
-- Multi-agent policy training
 
-## Results
+<div class="video-grid">
+  <div class="video-card">
+    <video controls muted playsinline>
+      <source src="/images/projects/training_video3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>First autonomous test run</p>
+  </div>
 
-The final model was able to imitate basic behavioral motion patterns and was evaluated against expert trajectories using group-level behavioral metrics.
+  <div class="video-card">
+    <video controls muted playsinline>
+      <source src="/images/projects/training_video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Handling curves on the track</p>
+  </div>
 
-## Technologies
-
-- Python
-- PyTorch
-- OpenCV
-- YOLO
-- DeepSORT
-- Reinforcement Learning
-- Imitation Learning
-- Multi-Agent Systems
+  <div class="video-card">
+    <video controls muted playsinline>
+      <source src="/images/projects/training_video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Rubber duck detection</p>
+  </div>
+</div>

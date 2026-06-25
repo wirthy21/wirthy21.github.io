@@ -134,13 +134,12 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/openclaw_img.png"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
 <a class="project-card" href="/project_details/pod_automation/">
   <div class="project-text">
-    <h3>Agentic AI Workflow - Print-On-Demand Automation </h3>
+    <h3>Print-On-Demand Automation<br>Agentic AI Workflow </h3>
     <h4>Personal Agentic AI Project - ongoing</h4>
     <p>
     </p>
@@ -156,7 +155,6 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/merch.png"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
@@ -178,7 +176,6 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/yolo.png"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
@@ -199,7 +196,6 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/robot.jpeg"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
@@ -219,7 +215,6 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/wiki.png"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
@@ -240,14 +235,13 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/climate_change.png"
-    alt="Predator-prey trajectory analysis project"
   />
 </a>
 
 
 <a class="project-card" href="/project_details/em_prediction/">
   <div class="project-text">
-    <h3>Forecasting the UEFA EURO 2024: Comparing FIFA23 and LLM Simulations</h3>
+    <h3>Forecasting the UEFA EURO 2024:<br> Comparing FIFA23 and LLM Simulations</h3>
     <h4>Student Project - August, 2024</h4>
     <p>
     </p>
@@ -261,7 +255,27 @@ draft = false
   <img
     class="project-image"
     src="/images/projects/fifa.jpg"
-    alt="Predator-prey trajectory analysis project"
+  />
+</a>
+</div>
+
+
+<a class="project-card" href="/project_details/bbq_universe/">
+  <div class="project-text">
+    <h3>BBQ Universe - 445.000 Follower<br>Instagram Theme Page</h3>
+    <h4>Personal Project - May, 2022</h4>
+    <p>
+    </p>
+    <div class="project-tags">
+      <span class="project-tag">Instagram</span>
+      <span class="project-tag">Social Media</span>
+      <span class="project-tag">Theme Page</span>
+      <span class="project-tag">BBQ & Grill</span>
+    </div>
+  </div>
+  <img
+    class="project-image"
+    src="/images/projects/bbq_universe.png"
   />
 </a>
 </div>

@@ -119,8 +119,7 @@ draft = false
 <a class="project-card" href="/projects/openclaw_agent/">
   <div class="project-text">
     <h3>OpenClaw Agent</h3>
-    <h4>Personal AI Assistant</h4>
-    <h4>Ongoing project</h4>
+    <h4>Personal AI Assistant  - ongoing</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -142,8 +141,7 @@ draft = false
 <a class="project-card" href="/projects/pod_automation/">
   <div class="project-text">
     <h3>Agentic AI Workflow - Print-On-Demand Automation </h3>
-    <h4>Personal Agentic AI Project</h4>
-    <h4>Ongoing project</h4>
+    <h4>Personal Agentic AI Project - ongoing</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -165,8 +163,7 @@ draft = false
 <a class="project-card" href="/projects/master_thesis/">
   <div class="project-text">
     <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
-    <h4>Master’s Thesis · MPI of Animal Behavior</h4>
-    <h4>March, 2026</h4>
+    <h4>Master’s Thesis - March, 2026</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -188,8 +185,7 @@ draft = false
 <a class="project-card" href="/projects/line_following_robot/">
   <div class="project-text">
     <h3>Line-Following Robot</h3>
-    <h4>Examination · Bio-inspired Robotics</h4>
-    <h4>March, 2026</h4>
+    <h4>Student Project - March, 2026</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -210,8 +206,7 @@ draft = false
 <a class="project-card" href="/projects/wikipedia_graph/">
   <div class="project-text">
     <h3>Shortest Path Analysis in the Wikipedia Graph: Machine Learning Approaches to Wikirace </h3>
-    <h4>Student Project</h4>
-    <h4>January, 2025</h4>
+    <h4>Student Project - January, 2025</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -232,8 +227,7 @@ draft = false
 <a class="project-card" href="/projects/discourse_climate_change/">
   <div class="project-text">
     <h3>Analyzing Online Discourse on Climate Change Using Word2Vec Embeddings</h3>
-    <h4>Student Project</h4>
-    <h4>August, 2024</h4>
+    <h4>Student Project - August, 2024</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -254,8 +248,7 @@ draft = false
 <a class="project-card" href="/projects/em_prediction/">
   <div class="project-text">
     <h3>Forecasting the UEFA EURO 2024: Comparing FIFA23 and LLM Simulations</h3>
-    <h4>Student Project</h4>
-    <h4>August, 2024</h4>
+    <h4>Student Project - August, 2024</h4>
     <p>
     </p>
     <div class="project-tags">

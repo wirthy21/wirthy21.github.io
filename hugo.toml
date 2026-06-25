@@ -17,7 +17,7 @@ disableKinds = ["RSS"]
   description = "Personal website of Jannik Wirtheim"
 
 [params.author]
-  avatar = "Bewerbungsfoto.jpg"
+  avatar = "/images/Bewerbungsfoto.jpg"
   intro = "Jannik Wirtheim"
   name = "Jannik Wirtheim"
   description = "Data Science & Machine Learning"

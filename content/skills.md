@@ -3,10 +3,6 @@ title = 'Skills 🛠️'
 draft = false
 +++
 
-<p class="skills-intro">
-  Beyond grades and degrees, the skills developed along the way are just as important. This page gives a small overview of my technical skills, certifications, and languages.
-</p>
-
 <style>
 .skills-intro {
   margin: 2rem 0 2.2rem 0;
@@ -68,12 +64,20 @@ draft = false
   line-height: 1.55;
 }
 
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
+
 @media (max-width: 750px) {
   .skills-grid {
     grid-template-columns: 1fr;
   }
 }
 </style>
+
+<p class="abstract-text" lang="en"> Beyond grades and degrees, the skills developed along the way are just as important. This page gives a small overview of my technical skills, certifications, and languages.</p>
 
 <div class="skills-grid">
 

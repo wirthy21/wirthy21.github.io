@@ -3,9 +3,6 @@ title = 'Projects 👾'
 draft = false
 +++
 
-<p class="projects-intro">
-  On this page, I share a mix of academic and personal projects. They show what I have worked on during my studies, research, and also in my own time. Feel free to take a look at my projects and click on them to learn more.
-</p>
 
 <style>
 .projects-intro {
@@ -101,6 +98,12 @@ draft = false
   opacity: 0.65;
 }
 
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
+
 @media (max-width: 750px) {
   .project-card {
     grid-template-columns: 1fr;
@@ -111,7 +114,10 @@ draft = false
     max-height: 220px;
   }
 }
+
 </style>
+
+<p class="abstract-text" lang="en">  On this page, I share a mix of academic and personal projects. They show what I have worked on during my studies, research, and also in my own time. Feel free to take a look at my projects and click on them to learn more.</p>
 
 <div class="projects-grid">
 

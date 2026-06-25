@@ -3,11 +3,6 @@ title = 'Experiences 👨🏼‍💻'
 draft = false
 +++
 
-<p class="experience-intro">
-  My experience combines an academic path at different research institutes with a more applied path in banking and IT. Take a look at the different positions to learn more about what I have done.
-</p>
-
-
 
 <style>
 .timeline {
@@ -108,7 +103,16 @@ draft = false
 .timeline-item:last-child {
   margin-bottom: 0;
 }
+
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
 </style>
+
+<p class="abstract-text" lang="en">   My experience combines an academic path at different research institutes with a more applied path in banking and IT. Take a look at the different positions to learn more about what I have done.</p>
+
 
 <div class="timeline">
 

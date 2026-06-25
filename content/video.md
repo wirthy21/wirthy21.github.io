@@ -36,11 +36,15 @@ draft = false
   opacity: 0.75;
   line-height: 1.6;
 }
+
+.abstract-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.65;
+}
 </style>
 
-<p class="video-intro">
-  Thank you for considering my profile for your position. I warmly invite you to watch my short self-introduction video to get a better impression of who I am!
-</p>
+<p class="abstract-text" lang="en"> Thank you for considering my profile for your position. I warmly invite you to watch my short self-introduction video to get a better impression of who I am!</p>
 
 <div class="video-placeholder">
   <p>

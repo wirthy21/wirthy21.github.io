@@ -166,7 +166,7 @@ draft = false
   <div class="project-text">
     <h3>Exploring Predator-Prey Dynamics from Videos using Generative Adversarial Imitation Learning</h3>
     <h4>Master’s Thesis · MPI of Animal Behavior</h4>
-    <h4>03/2026</h4>
+    <h4>March, 2026</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -189,7 +189,7 @@ draft = false
   <div class="project-text">
     <h3>Line-Following Robot</h3>
     <h4>Examination · Bio-inspired Robotics</h4>
-    <h4>03/2025</h4>
+    <h4>March, 2026</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -211,7 +211,7 @@ draft = false
   <div class="project-text">
     <h3>Shortest Path Analysis in the Wikipedia Graph: Machine Learning Approaches to Wikirace </h3>
     <h4>Student Project</h4>
-    <h4>01/2025</h4>
+    <h4>January, 2025</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -233,7 +233,7 @@ draft = false
   <div class="project-text">
     <h3>Analyzing Online Discourse on Climate Change Using Word2Vec Embeddings</h3>
     <h4>Student Project</h4>
-    <h4>08/2024</h4>
+    <h4>August, 2024</h4>
     <p>
     </p>
     <div class="project-tags">
@@ -255,7 +255,7 @@ draft = false
   <div class="project-text">
     <h3>Forecasting the UEFA EURO 2024: Comparing FIFA23 and LLM Simulations</h3>
     <h4>Student Project</h4>
-    <h4>08/2024</h4>
+    <h4>August, 2024</h4>
     <p>
     </p>
     <div class="project-tags">

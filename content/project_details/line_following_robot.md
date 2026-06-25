@@ -1,8 +1,6 @@
 +++
 title = "Line-Following Robot 🏎️🥇"
-date = 2026-06-25
 draft = false
-url = "/projects/line_following_robot/"
 +++
 
 <style>

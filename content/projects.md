@@ -129,6 +129,7 @@ draft = false
       <span class="project-tag">Linux</span>
       <span class="project-tag">Automation</span>
       <span class="project-tag">Agent Orchestration</span>
+      <span class="project-tag">Paperclip</span>
     </div>
   </div>
   <img

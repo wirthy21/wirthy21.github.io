@@ -6,6 +6,7 @@ draft = false
 <style>
 .cv-actions {
   margin: 2rem 0 1.5rem 0;
+  text-align: center;
 }
 
 .cv-download {

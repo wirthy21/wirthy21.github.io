@@ -47,12 +47,12 @@ draft = false
 
 <iframe
   class="cv-viewer"
-  src="/files/CV_Jannik_Wirtheim.pdf"
+  src="/files/CV.pdf"
   title="CV Jannik Wirtheim">
 </iframe>
 
 <div class="cv-actions">
-  <a class="cv-download" href="/files/CV_Jannik_Wirtheim.pdf" download>
+  <a class="cv-download" href="/files/CV.pdf" download>
     Download CV
   </a>
 </div>

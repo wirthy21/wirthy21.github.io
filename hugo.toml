@@ -38,11 +38,11 @@ disableKinds = ["RSS"]
   name = "linkedin"
   url = "https://www.linkedin.com/in/jannik-wirtheim-880490231/"
 
-[[menu.main]]
-  pageRef = "video"
-  name = "Video"
-  url = "/video/"
-  weight = 10
+#[[menu.main]]
+#  pageRef = "video"
+#  name = "Video"
+#  url = "/video/"
+#  weight = 10
 
 [[menu.main]]
   pageRef = "experience"

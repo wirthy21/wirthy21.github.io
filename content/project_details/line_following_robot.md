@@ -47,6 +47,35 @@ draft = false
   line-height: 1.65;
 }
 
+.github-actions {
+  margin: 2.5rem 0 1rem 0;
+  text-align: center;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 0.75rem 1.15rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.09);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.github-button::after {
+  content: none !important;
+}
+
+.github-button:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .video-grid {
     grid-template-columns: 1fr;
@@ -101,4 +130,11 @@ The robot used a PID controller combined with real-time camera input to detect a
     </video>
     <p>Rubber duck detection</p>
   </div>
+</div>
+
+
+<div class="github-actions">
+  <a class="github-button" href="https://github.com/wirthy21/Robotics" target="_blank" rel="noopener noreferrer">
+    View Project on GitHub
+  </a>
 </div>

@@ -80,6 +80,35 @@ draft = false
   text-decoration: none;
 }
 
+.github-actions {
+  margin: 2.5rem 0 1rem 0;
+  text-align: center;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 0.75rem 1.15rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.09);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.github-button::after {
+  content: none !important;
+}
+
+.github-button:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .video-grid {
     grid-template-columns: 1fr;
@@ -94,7 +123,9 @@ draft = false
 }
 </style>
 
-<p class="abstract-text" lang="en"> Conducted within Research Group Li at the Cluster of Excellence Centre for the Advanced Study of Collective Behaviour and the Max Planck Institute of Animal Behavior. Together with the reseach group of Dr. Liang Li I conducted research to better understand swarm behavior of fish under survival pressure.</p>
+<p class="abstract-text" lang="en">
+  My master's thesis was conducted within Research Group Li at the Max Planck Institute of Animal Behavior and the Cluster of Excellence Centre for the Advanced Study of Collective Behaviour. Together with Dr. Liang Li, I investigated swarm behavior and collective motion of prey under the survival pressure of a predator.
+</p>
 
 <div class="cv-actions">
   <a class="cv-download" href="/files/Master_Thesis.pdf" download>
@@ -136,16 +167,29 @@ Collective motion in swarm systems exhibits complex behavioral patterns emerging
 ## Further Analysis
 
 <p class="abstract-text" lang="en">
-Furthermore analysis to better explain the learning of the policies are conducted. The heat maps show how the predator learned to perceive nearby prey. The trajectories are created based on a Monte-Carlo simulation to calculate the offset of the learned stochastic policies in comparison to a real recorded trajectory. And the Attention Graph shows which prey currently receives the highest predator attention.</p>
+  In addition to imitating the expert behavior itself, I conducted further analyses to better understand and interpret the learned policies. The following visualization shows how the predator policy perceives nearby prey. Overall, the results align with intuitive expectations: prey located in the predator's peripheral frontal field receive the highest attention. Prey on the left tend to induce leftward steering, while prey on the right induce rightward steering. In contrast, prey located behind the predator lead to stronger turning motions.
+</p>
 
 <img class="project-large-image" src="/images/projects/maps.png" alt="Heat Maps">
 
 <p class="abstract-text" lang="en">
-The trajectories are created based on a Monte-Carlo simulation to calculate the offset of the learned stochastic policies in comparison to a real recorded trajectory.</p>
+  To measure the deviation between the simulated and expert behavior, I conducted Monte Carlo simulations using the learned stochastic policies. Even when the expert demonstration follows a relatively straight trajectory, the predator policy often produces strong steering responses in both left and right directions. The prey policies tend to follow the expert behavior more closely, although in several scenarios they still show a noticeable drift toward the right.
+</p>
+
 
 <img class="project-large-image" src="/images/projects/traj.png" alt="Trajectory Prediction">
 
 <p class="abstract-text" lang="en">
-And the Attention Graph shows which prey currently receives the highest predator attention.</p>
+  The predator attention network provides another way to interpret the learned policy. Less transparent prey indicate higher attention from the predator's perspective. As expected, nearby prey receive more attention than distant individuals. In this example, the strongly highlighted orange prey receives the highest attention because it is located directly within the predator's frontal field of view and is likely to become its next target.
+</p>
+
+
 
 <img class="project-large-image" src="/images/projects/network.png" alt="Attention Network">
+
+
+<div class="github-actions">
+  <a class="github-button" href="https://github.com/wirthy21/Master-Thesis" target="_blank" rel="noopener noreferrer">
+    View Project on GitHub
+  </a>
+</div>

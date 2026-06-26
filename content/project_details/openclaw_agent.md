@@ -71,7 +71,7 @@ By now, you have already learned quite a bit about Luna. Luna has become a valua
 For privacy reasons, I configured Luna according to the principle of least privilege. This means that Luna only has limited access to my personal data and restricted permissions — only the ones I explicitly grant her.</p>
 
 <p class="abstract-text" lang="en">
-Luna is a tinkering project. Through the continuous development of new tools, I keep expanding Luna’s horizon, for example with Paperclip, which helps me gain a better overview of the orchestration of the agents.</p>
+Luna is a tinkering project. Through the continuous development of new tools, I keep expanding Luna’s horizon, for example with Paperclip, which helps me gain a better overview of the agent orchestration.</p>
 
 
 ## Current Tasks

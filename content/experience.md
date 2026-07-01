@@ -121,7 +121,7 @@ draft = false
   <div class="timeline-content">
     <h3>Research Assistant, Data Science and Generative AI</h3>
     <h4>Fraunhofer IAO, Heilbronn</h4>
-    <p>Contributing to projects at the intersection of Data Science and Generative AI.</p>
+    <p>Contributing to projects in the field of Data Science and Generative AI.</p>
   </div>
 </div>
 

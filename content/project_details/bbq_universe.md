@@ -106,4 +106,4 @@ From 2019 onwards, I managed my own Instagram theme page, @bbquniverse, focused 
 Around the account, I built an ecosystem of different monetization channels. This included affiliate marketing, dropshipping, product collaborations, and advertising partnerships. The project expanded into its own online shop, where I sold merchandise, dropshipping products, and digital products such as my own BBQ cookbook.
 </p>
 
-<img class="project-large-image" src="/images/projects/bbq_universe_facebook.png" alt="Background BBQ Universe">
+<img class="project-large-image" src="/images/projects/bbq_universe_facebook.PNG" alt="Background BBQ Universe">

@@ -85,16 +85,16 @@ draft = false
 
   <div class="personal-card">
     <div class="personal-text">
-      <h3>Diver</h3>
-      <h4>Scuba Diving</h4>
+      <h3>Football Player</h3>
+      <h4>Sportfreunde Bühlerzell e.V.</h4>
       <p>
-        During the first year of my master's programm in Constance. I did my international scuba diving license. 
+        Football is an important part of my life. I have been playing it for as long as I can remember.
       </p>
     </div>
     <img
       class="personal-image"
-      src="/images/projects/diving.jpeg"
-      alt="Diving"
+      src="/images/projects/football.png"
+      alt="Football"
     />
   </div>
 
@@ -115,16 +115,16 @@ draft = false
 
   <div class="personal-card">
     <div class="personal-text">
-      <h3>Football Player</h3>
-      <h4>Sportfreunde Bühlerzell e.V.</h4>
+      <h3>Diver</h3>
+      <h4>Scuba Diving</h4>
       <p>
-        Football is an important part of my life. I have been playing it for as long as I can remember.
+        During the first year of my master’s program in Constance, I obtained my international scuba diving certification. 
       </p>
     </div>
     <img
       class="personal-image"
-      src="/images/projects/football.png"
-      alt="Football"
+      src="/images/projects/diving.jpeg"
+      alt="Diving"
     />
   </div>
 

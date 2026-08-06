@@ -109,7 +109,7 @@ draft = false
   <h3>Languages 🌍</h3>
   <ul class="skill-list">
     <li>German — native</li>
-    <li>English — C1</li>
+    <li>English — C1 (certified)</li>
   </ul>
 </div>
 
@@ -119,6 +119,7 @@ draft = false
     <li>Hugging Face: Deep Reinforcement Learning</li>
     <li>Hugging Face: Fundamentals of LLMs</li>
     <li>Hugging Face: Fundamentals of Agents</li>
+    <li>NASA: Fundamentals of Remote Sensing</li>
   </ul>
 </div>
 

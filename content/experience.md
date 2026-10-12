@@ -121,7 +121,11 @@ draft = false
   <div class="timeline-content">
     <h3>Research Assistant, Data Science and Generative AI</h3>
     <h4>Fraunhofer IAO, Heilbronn</h4>
-    <p>Contributing to projects in the field of Data Science and Generative AI.</p>
+    <p>Contributing to projects at the intersection of Data Science and Generative AI.</p>
+    <ul>
+      <li>Developing a system for automated picking processes using Sensor Fusion and Computer Vision in industrial parts storage systems.</li>
+      <li>Supporting the “ExpertAIse” project to capture and preserve expert knowledge in organizations through LLM-assisted interviews.</li>
+    </ul>
   </div>
 </div>
 

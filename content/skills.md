@@ -98,9 +98,9 @@ draft = false
     <span class="skill-tag">PyTorch</span>
     <span class="skill-tag">OpenCV</span>
     <span class="skill-tag">Scikit-learn</span>
-    <span class="skill-tag">Gymnasium</span>
+    <span class="skill-tag">rasterio</span>
     <span class="skill-tag">SciPy</span>
-    <span class="skill-tag">Smolagents</span>
+    <span class="skill-tag">GDAL</span>
     <span class="skill-tag">Docker</span>
   </div>
 </div>

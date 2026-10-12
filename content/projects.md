@@ -146,7 +146,7 @@ draft = false
 <a class="project-card" href="/project_details/pod_automation/">
   <div class="project-text">
     <h3>Print-On-Demand Automation<br>Agentic AI Workflow </h3>
-    <h4>Personal Project - ongoing</h4>
+    <h4>Personal Project - September, 2026</h4>
     <p>
     </p>
     <div class="project-tags">
